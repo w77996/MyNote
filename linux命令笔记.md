@@ -17,3 +17,22 @@
 
 	至tomcat目录下logs
 	tail -f catalina.out
+
+4.查看文件在哪
+
+	whereis mysqladmin
+
+5.mysql unblock解决方案
+
+	mysqladmin -u root -p flush-hosts
+	或
+	假设远程主机的IP为：10.0.0.1，用户名为root,密码为123。则键入以下命令： 
+	mysql -h10.0.0.1 -uroot -p123 
+
+6.查看当前用户
+
+	w
+
+7.redis使用
+
+	
